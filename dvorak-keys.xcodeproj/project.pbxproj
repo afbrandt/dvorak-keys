@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49129B6E19D22B1400502EC8 /* CustomKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49129B6D19D22B1400502EC8 /* CustomKeyboard.xib */; };
+		49CCFD5919D2276E00FD116A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CCFD5819D2276E00FD116A /* AppDelegate.swift */; };
+		49CCFD5B19D2276E00FD116A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CCFD5A19D2276E00FD116A /* ViewController.swift */; };
+		49CCFD5E19D2276E00FD116A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFD5C19D2276E00FD116A /* Main.storyboard */; };
+		49CCFD6019D2276E00FD116A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFD5F19D2276E00FD116A /* Images.xcassets */; };
+		49CCFD6319D2276E00FD116A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFD6119D2276E00FD116A /* LaunchScreen.xib */; };
+		49CCFD6F19D2276E00FD116A /* dvorak_keysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CCFD6E19D2276E00FD116A /* dvorak_keysTests.swift */; };
+		49CCFD8419D2279600FD116A /* dvorak-keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 49CCFD7C19D2279600FD116A /* dvorak-keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		49CCFDAA19D227F200FD116A /* A.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFD8B19D227F200FD116A /* A.png */; };
+		49CCFDAB19D227F200FD116A /* B.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFD8C19D227F200FD116A /* B.png */; };
+		49CCFDAC19D227F200FD116A /* Blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFD8D19D227F200FD116A /* Blank.png */; };
+		49CCFDAD19D227F200FD116A /* C.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFD8E19D227F200FD116A /* C.png */; };
+		49CCFDAF19D227F200FD116A /* D.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFD9019D227F200FD116A /* D.png */; };
+		49CCFDB019D227F200FD116A /* E.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFD9119D227F200FD116A /* E.png */; };
+		49CCFDB119D227F200FD116A /* F.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFD9219D227F200FD116A /* F.png */; };
+		49CCFDB219D227F200FD116A /* G.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFD9319D227F200FD116A /* G.png */; };
+		49CCFDB319D227F200FD116A /* H.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFD9419D227F200FD116A /* H.png */; };
+		49CCFDB419D227F200FD116A /* I.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFD9519D227F200FD116A /* I.png */; };
+		49CCFDB519D227F200FD116A /* J.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFD9619D227F200FD116A /* J.png */; };
+		49CCFDB619D227F200FD116A /* K.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFD9719D227F200FD116A /* K.png */; };
+		49CCFDB719D227F200FD116A /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CCFD9819D227F200FD116A /* KeyboardViewController.swift */; };
+		49CCFDB819D227F200FD116A /* L.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFD9919D227F200FD116A /* L.png */; };
+		49CCFDB919D227F200FD116A /* M.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFD9A19D227F200FD116A /* M.png */; };
+		49CCFDBA19D227F200FD116A /* N.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFD9B19D227F200FD116A /* N.png */; };
+		49CCFDBB19D227F200FD116A /* O.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFD9C19D227F200FD116A /* O.png */; };
+		49CCFDBC19D227F200FD116A /* P.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFD9D19D227F200FD116A /* P.png */; };
+		49CCFDBD19D227F200FD116A /* plush-alpha-tiles.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFD9E19D227F200FD116A /* plush-alpha-tiles.png */; };
+		49CCFDBE19D227F200FD116A /* Q.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFD9F19D227F200FD116A /* Q.png */; };
+		49CCFDBF19D227F200FD116A /* Qu.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFDA019D227F200FD116A /* Qu.png */; };
+		49CCFDC019D227F200FD116A /* R.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFDA119D227F200FD116A /* R.png */; };
+		49CCFDC119D227F200FD116A /* S.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFDA219D227F200FD116A /* S.png */; };
+		49CCFDC219D227F200FD116A /* T.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFDA319D227F200FD116A /* T.png */; };
+		49CCFDC319D227F200FD116A /* U.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFDA419D227F200FD116A /* U.png */; };
+		49CCFDC419D227F200FD116A /* V.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFDA519D227F200FD116A /* V.png */; };
+		49CCFDC519D227F200FD116A /* W.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFDA619D227F200FD116A /* W.png */; };
+		49CCFDC619D227F200FD116A /* X.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFDA719D227F200FD116A /* X.png */; };
+		49CCFDC719D227F200FD116A /* Y.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFDA819D227F200FD116A /* Y.png */; };
+		49CCFDC819D227F200FD116A /* Z.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CCFDA919D227F200FD116A /* Z.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49CCFD6919D2276E00FD116A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49CCFD4B19D2276E00FD116A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49CCFD5219D2276E00FD116A;
+			remoteInfo = "dvorak-keys";
+		};
+		49CCFD8219D2279600FD116A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49CCFD4B19D2276E00FD116A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49CCFD7B19D2279600FD116A;
+			remoteInfo = "dvorak-keyboard";
+		};
+		49CCFD8519D2279600FD116A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49CCFD4B19D2276E00FD116A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49CCFD7B19D2279600FD116A;
+			remoteInfo = "dvorak-keyboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		49CCFD8A19D2279600FD116A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				49CCFD8419D2279600FD116A /* dvorak-keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		49129B6D19D22B1400502EC8 /* CustomKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomKeyboard.xib; sourceTree = "<group>"; };
+		49CCFD5319D2276E00FD116A /* dvorak-keys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dvorak-keys.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CCFD5719D2276E00FD116A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49CCFD5819D2276E00FD116A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49CCFD5A19D2276E00FD116A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49CCFD5D19D2276E00FD116A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49CCFD5F19D2276E00FD116A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49CCFD6219D2276E00FD116A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		49CCFD6819D2276E00FD116A /* dvorak-keysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dvorak-keysTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CCFD6D19D2276E00FD116A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49CCFD6E19D2276E00FD116A /* dvorak_keysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dvorak_keysTests.swift; sourceTree = "<group>"; };
+		49CCFD7C19D2279600FD116A /* dvorak-keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "dvorak-keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CCFD7F19D2279600FD116A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49CCFD8B19D227F200FD116A /* A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A.png; sourceTree = "<group>"; };
+		49CCFD8C19D227F200FD116A /* B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B.png; sourceTree = "<group>"; };
+		49CCFD8D19D227F200FD116A /* Blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blank.png; sourceTree = "<group>"; };
+		49CCFD8E19D227F200FD116A /* C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C.png; sourceTree = "<group>"; };
+		49CCFD9019D227F200FD116A /* D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D.png; sourceTree = "<group>"; };
+		49CCFD9119D227F200FD116A /* E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = E.png; sourceTree = "<group>"; };
+		49CCFD9219D227F200FD116A /* F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = F.png; sourceTree = "<group>"; };
+		49CCFD9319D227F200FD116A /* G.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = G.png; sourceTree = "<group>"; };
+		49CCFD9419D227F200FD116A /* H.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = H.png; sourceTree = "<group>"; };
+		49CCFD9519D227F200FD116A /* I.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = I.png; sourceTree = "<group>"; };
+		49CCFD9619D227F200FD116A /* J.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = J.png; sourceTree = "<group>"; };
+		49CCFD9719D227F200FD116A /* K.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = K.png; sourceTree = "<group>"; };
+		49CCFD9819D227F200FD116A /* KeyboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		49CCFD9919D227F200FD116A /* L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L.png; sourceTree = "<group>"; };
+		49CCFD9A19D227F200FD116A /* M.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = M.png; sourceTree = "<group>"; };
+		49CCFD9B19D227F200FD116A /* N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = N.png; sourceTree = "<group>"; };
+		49CCFD9C19D227F200FD116A /* O.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = O.png; sourceTree = "<group>"; };
+		49CCFD9D19D227F200FD116A /* P.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P.png; sourceTree = "<group>"; };
+		49CCFD9E19D227F200FD116A /* plush-alpha-tiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plush-alpha-tiles.png"; sourceTree = "<group>"; };
+		49CCFD9F19D227F200FD116A /* Q.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Q.png; sourceTree = "<group>"; };
+		49CCFDA019D227F200FD116A /* Qu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Qu.png; sourceTree = "<group>"; };
+		49CCFDA119D227F200FD116A /* R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = R.png; sourceTree = "<group>"; };
+		49CCFDA219D227F200FD116A /* S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = S.png; sourceTree = "<group>"; };
+		49CCFDA319D227F200FD116A /* T.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T.png; sourceTree = "<group>"; };
+		49CCFDA419D227F200FD116A /* U.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = U.png; sourceTree = "<group>"; };
+		49CCFDA519D227F200FD116A /* V.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = V.png; sourceTree = "<group>"; };
+		49CCFDA619D227F200FD116A /* W.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = W.png; sourceTree = "<group>"; };
+		49CCFDA719D227F200FD116A /* X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X.png; sourceTree = "<group>"; };
+		49CCFDA819D227F200FD116A /* Y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Y.png; sourceTree = "<group>"; };
+		49CCFDA919D227F200FD116A /* Z.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Z.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49CCFD5019D2276E00FD116A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CCFD6519D2276E00FD116A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CCFD7919D2279600FD116A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4967961819D2285B0020D853 /* Tiles */ = {
+			isa = PBXGroup;
+			children = (
+				49CCFD8B19D227F200FD116A /* A.png */,
+				49CCFD8C19D227F200FD116A /* B.png */,
+				49CCFD8D19D227F200FD116A /* Blank.png */,
+				49CCFD8E19D227F200FD116A /* C.png */,
+				49CCFD9019D227F200FD116A /* D.png */,
+				49CCFD9119D227F200FD116A /* E.png */,
+				49CCFD9219D227F200FD116A /* F.png */,
+				49CCFD9319D227F200FD116A /* G.png */,
+				49CCFD9419D227F200FD116A /* H.png */,
+				49CCFD9519D227F200FD116A /* I.png */,
+				49CCFD9619D227F200FD116A /* J.png */,
+				49CCFD9719D227F200FD116A /* K.png */,
+				49CCFD9919D227F200FD116A /* L.png */,
+				49CCFD9A19D227F200FD116A /* M.png */,
+				49CCFD9B19D227F200FD116A /* N.png */,
+				49CCFD9C19D227F200FD116A /* O.png */,
+				49CCFD9D19D227F200FD116A /* P.png */,
+				49CCFD9E19D227F200FD116A /* plush-alpha-tiles.png */,
+				49CCFD9F19D227F200FD116A /* Q.png */,
+				49CCFDA019D227F200FD116A /* Qu.png */,
+				49CCFDA119D227F200FD116A /* R.png */,
+				49CCFDA219D227F200FD116A /* S.png */,
+				49CCFDA319D227F200FD116A /* T.png */,
+				49CCFDA419D227F200FD116A /* U.png */,
+				49CCFDA519D227F200FD116A /* V.png */,
+				49CCFDA619D227F200FD116A /* W.png */,
+				49CCFDA719D227F200FD116A /* X.png */,
+				49CCFDA819D227F200FD116A /* Y.png */,
+				49CCFDA919D227F200FD116A /* Z.png */,
+			);
+			name = Tiles;
+			sourceTree = "<group>";
+		};
+		49CCFD4A19D2276E00FD116A = {
+			isa = PBXGroup;
+			children = (
+				49CCFD5519D2276E00FD116A /* dvorak-keys */,
+				49CCFD6B19D2276E00FD116A /* dvorak-keysTests */,
+				49CCFD7D19D2279600FD116A /* dvorak-keyboard */,
+				49CCFD5419D2276E00FD116A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49CCFD5419D2276E00FD116A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49CCFD5319D2276E00FD116A /* dvorak-keys.app */,
+				49CCFD6819D2276E00FD116A /* dvorak-keysTests.xctest */,
+				49CCFD7C19D2279600FD116A /* dvorak-keyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49CCFD5519D2276E00FD116A /* dvorak-keys */ = {
+			isa = PBXGroup;
+			children = (
+				49CCFD5819D2276E00FD116A /* AppDelegate.swift */,
+				49CCFD5A19D2276E00FD116A /* ViewController.swift */,
+				49CCFD5C19D2276E00FD116A /* Main.storyboard */,
+				49CCFD5F19D2276E00FD116A /* Images.xcassets */,
+				49CCFD6119D2276E00FD116A /* LaunchScreen.xib */,
+				49CCFD5619D2276E00FD116A /* Supporting Files */,
+			);
+			path = "dvorak-keys";
+			sourceTree = "<group>";
+		};
+		49CCFD5619D2276E00FD116A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49CCFD5719D2276E00FD116A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49CCFD6B19D2276E00FD116A /* dvorak-keysTests */ = {
+			isa = PBXGroup;
+			children = (
+				49CCFD6E19D2276E00FD116A /* dvorak_keysTests.swift */,
+				49CCFD6C19D2276E00FD116A /* Supporting Files */,
+			);
+			path = "dvorak-keysTests";
+			sourceTree = "<group>";
+		};
+		49CCFD6C19D2276E00FD116A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49CCFD6D19D2276E00FD116A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49CCFD7D19D2279600FD116A /* dvorak-keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				49CCFD9819D227F200FD116A /* KeyboardViewController.swift */,
+				4967961819D2285B0020D853 /* Tiles */,
+				49CCFD7E19D2279600FD116A /* Supporting Files */,
+				49129B6D19D22B1400502EC8 /* CustomKeyboard.xib */,
+			);
+			path = "dvorak-keyboard";
+			sourceTree = "<group>";
+		};
+		49CCFD7E19D2279600FD116A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49CCFD7F19D2279600FD116A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49CCFD5219D2276E00FD116A /* dvorak-keys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49CCFD7219D2276E00FD116A /* Build configuration list for PBXNativeTarget "dvorak-keys" */;
+			buildPhases = (
+				49CCFD4F19D2276E00FD116A /* Sources */,
+				49CCFD5019D2276E00FD116A /* Frameworks */,
+				49CCFD5119D2276E00FD116A /* Resources */,
+				49CCFD8A19D2279600FD116A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49CCFD8319D2279600FD116A /* PBXTargetDependency */,
+				49CCFD8619D2279600FD116A /* PBXTargetDependency */,
+			);
+			name = "dvorak-keys";
+			productName = "dvorak-keys";
+			productReference = 49CCFD5319D2276E00FD116A /* dvorak-keys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49CCFD6719D2276E00FD116A /* dvorak-keysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49CCFD7519D2276E00FD116A /* Build configuration list for PBXNativeTarget "dvorak-keysTests" */;
+			buildPhases = (
+				49CCFD6419D2276E00FD116A /* Sources */,
+				49CCFD6519D2276E00FD116A /* Frameworks */,
+				49CCFD6619D2276E00FD116A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49CCFD6A19D2276E00FD116A /* PBXTargetDependency */,
+			);
+			name = "dvorak-keysTests";
+			productName = "dvorak-keysTests";
+			productReference = 49CCFD6819D2276E00FD116A /* dvorak-keysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49CCFD7B19D2279600FD116A /* dvorak-keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49CCFD8719D2279600FD116A /* Build configuration list for PBXNativeTarget "dvorak-keyboard" */;
+			buildPhases = (
+				49CCFD7819D2279600FD116A /* Sources */,
+				49CCFD7919D2279600FD116A /* Frameworks */,
+				49CCFD7A19D2279600FD116A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dvorak-keyboard";
+			productName = "dvorak-keyboard";
+			productReference = 49CCFD7C19D2279600FD116A /* dvorak-keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49CCFD4B19D2276E00FD116A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Andrew Brandt";
+				TargetAttributes = {
+					49CCFD5219D2276E00FD116A = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					49CCFD6719D2276E00FD116A = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 49CCFD5219D2276E00FD116A;
+					};
+					49CCFD7B19D2279600FD116A = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 49CCFD4E19D2276E00FD116A /* Build configuration list for PBXProject "dvorak-keys" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49CCFD4A19D2276E00FD116A;
+			productRefGroup = 49CCFD5419D2276E00FD116A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49CCFD5219D2276E00FD116A /* dvorak-keys */,
+				49CCFD6719D2276E00FD116A /* dvorak-keysTests */,
+				49CCFD7B19D2279600FD116A /* dvorak-keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49CCFD5119D2276E00FD116A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CCFD5E19D2276E00FD116A /* Main.storyboard in Resources */,
+				49CCFD6319D2276E00FD116A /* LaunchScreen.xib in Resources */,
+				49CCFD6019D2276E00FD116A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CCFD6619D2276E00FD116A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CCFD7A19D2279600FD116A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CCFDC019D227F200FD116A /* R.png in Resources */,
+				49CCFDB419D227F200FD116A /* I.png in Resources */,
+				49CCFDC419D227F200FD116A /* V.png in Resources */,
+				49CCFDAF19D227F200FD116A /* D.png in Resources */,
+				49CCFDC619D227F200FD116A /* X.png in Resources */,
+				49CCFDC719D227F200FD116A /* Y.png in Resources */,
+				49CCFDAC19D227F200FD116A /* Blank.png in Resources */,
+				49CCFDB919D227F200FD116A /* M.png in Resources */,
+				49CCFDC119D227F200FD116A /* S.png in Resources */,
+				49CCFDAB19D227F200FD116A /* B.png in Resources */,
+				49CCFDBE19D227F200FD116A /* Q.png in Resources */,
+				49CCFDB019D227F200FD116A /* E.png in Resources */,
+				49CCFDC819D227F200FD116A /* Z.png in Resources */,
+				49CCFDBF19D227F200FD116A /* Qu.png in Resources */,
+				49CCFDBC19D227F200FD116A /* P.png in Resources */,
+				49CCFDC519D227F200FD116A /* W.png in Resources */,
+				49CCFDBA19D227F200FD116A /* N.png in Resources */,
+				49CCFDC219D227F200FD116A /* T.png in Resources */,
+				49CCFDB619D227F200FD116A /* K.png in Resources */,
+				49CCFDAA19D227F200FD116A /* A.png in Resources */,
+				49CCFDBD19D227F200FD116A /* plush-alpha-tiles.png in Resources */,
+				49CCFDB519D227F200FD116A /* J.png in Resources */,
+				49CCFDC319D227F200FD116A /* U.png in Resources */,
+				49CCFDAD19D227F200FD116A /* C.png in Resources */,
+				49CCFDB219D227F200FD116A /* G.png in Resources */,
+				49CCFDB819D227F200FD116A /* L.png in Resources */,
+				49CCFDB119D227F200FD116A /* F.png in Resources */,
+				49CCFDBB19D227F200FD116A /* O.png in Resources */,
+				49CCFDB319D227F200FD116A /* H.png in Resources */,
+				49129B6E19D22B1400502EC8 /* CustomKeyboard.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49CCFD4F19D2276E00FD116A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CCFD5B19D2276E00FD116A /* ViewController.swift in Sources */,
+				49CCFD5919D2276E00FD116A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CCFD6419D2276E00FD116A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CCFD6F19D2276E00FD116A /* dvorak_keysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CCFD7819D2279600FD116A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CCFDB719D227F200FD116A /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49CCFD6A19D2276E00FD116A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49CCFD5219D2276E00FD116A /* dvorak-keys */;
+			targetProxy = 49CCFD6919D2276E00FD116A /* PBXContainerItemProxy */;
+		};
+		49CCFD8319D2279600FD116A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49CCFD7B19D2279600FD116A /* dvorak-keyboard */;
+			targetProxy = 49CCFD8219D2279600FD116A /* PBXContainerItemProxy */;
+		};
+		49CCFD8619D2279600FD116A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49CCFD7B19D2279600FD116A /* dvorak-keyboard */;
+			targetProxy = 49CCFD8519D2279600FD116A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49CCFD5C19D2276E00FD116A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49CCFD5D19D2276E00FD116A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49CCFD6119D2276E00FD116A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49CCFD6219D2276E00FD116A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49CCFD7019D2276E00FD116A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49CCFD7119D2276E00FD116A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49CCFD7319D2276E00FD116A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "dvorak-keys/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49CCFD7419D2276E00FD116A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "dvorak-keys/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49CCFD7619D2276E00FD116A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "dvorak-keysTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dvorak-keys.app/dvorak-keys";
+			};
+			name = Debug;
+		};
+		49CCFD7719D2276E00FD116A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "dvorak-keysTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dvorak-keys.app/dvorak-keys";
+			};
+			name = Release;
+		};
+		49CCFD8819D2279600FD116A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "dvorak-keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		49CCFD8919D2279600FD116A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "dvorak-keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49CCFD4E19D2276E00FD116A /* Build configuration list for PBXProject "dvorak-keys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49CCFD7019D2276E00FD116A /* Debug */,
+				49CCFD7119D2276E00FD116A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49CCFD7219D2276E00FD116A /* Build configuration list for PBXNativeTarget "dvorak-keys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49CCFD7319D2276E00FD116A /* Debug */,
+				49CCFD7419D2276E00FD116A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49CCFD7519D2276E00FD116A /* Build configuration list for PBXNativeTarget "dvorak-keysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49CCFD7619D2276E00FD116A /* Debug */,
+				49CCFD7719D2276E00FD116A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49CCFD8719D2279600FD116A /* Build configuration list for PBXNativeTarget "dvorak-keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49CCFD8819D2279600FD116A /* Debug */,
+				49CCFD8919D2279600FD116A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49CCFD4B19D2276E00FD116A /* Project object */;
+}
